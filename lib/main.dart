@@ -78,7 +78,7 @@ class _MyHomePageState extends State<MyHomePage> {
               decoration: BoxDecoration(
                 gradient: LinearGradient(colors: [
                   Color.fromARGB(255, 0, 0, 0),
-                  Color.fromARGB(10, 0, 0, 0)
+                  Color.fromARGB(0, 0, 0, 0)
                 ], begin: Alignment.bottomCenter, end: Alignment.topCenter),
               ),
               position: DecorationPosition.foreground,
