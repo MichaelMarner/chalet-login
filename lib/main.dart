@@ -100,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: TextStyle(
                       color: Colors.white,
                       fontFamily: 'SF Pro Display',
-                      fontSize: 70,
+                      fontSize: 75,
                       letterSpacing: 1.25,
                       fontWeight: FontWeight.bold),
                 ),
@@ -110,7 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: TextStyle(
                       color: Color.fromARGB(255, 224, 224, 224),
                       fontFamily: 'SF Pro Display',
-                      fontSize: 15,
+                      fontSize: 16,
                       fontWeight: FontWeight.w400),
                 ),
                 SizedBox(
