@@ -137,6 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           style: TextStyle(
                               fontFamily: 'SF Pro Display',
                               fontWeight: FontWeight.bold,
+                              letterSpacing: 1.25,
                               color: Colors.white,
                               fontSize: 18),
                         ),
@@ -168,6 +169,7 @@ class _MyHomePageState extends State<MyHomePage> {
                         'Sign in',
                         style: TextStyle(
                             fontFamily: 'SF Pro Display',
+                            letterSpacing: 1.25,
                             fontWeight: FontWeight.bold,
                             fontSize: 18),
                       ),
