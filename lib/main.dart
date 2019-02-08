@@ -110,6 +110,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   style: TextStyle(
                       color: Color.fromARGB(255, 224, 224, 224),
                       fontFamily: 'SF Pro Display',
+                      letterSpacing: 0.5,
                       fontSize: 16,
                       fontWeight: FontWeight.w400),
                 ),
