@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import './gradient-button.dart';
 import 'dart:ui';
 
@@ -128,13 +129,22 @@ class _MyHomePageState extends State<MyHomePage> {
                   padding: const EdgeInsets.symmetric(horizontal: 16),
                   child: GradientButton(
                     padding: EdgeInsets.symmetric(vertical: 20),
-                    child: Text(
-                      'Sign in with Twitter',
-                      style: TextStyle(
-                          fontFamily: 'SF Pro Display',
-                          fontWeight: FontWeight.bold,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      children: <Widget>[
+                        Text(
+                          'Sign in with Twitter ',
+                          style: TextStyle(
+                              fontFamily: 'SF Pro Display',
+                              fontWeight: FontWeight.bold,
+                              color: Colors.white,
+                              fontSize: 18),
+                        ),
+                        Icon(
+                          FontAwesomeIcons.twitter,
                           color: Colors.white,
-                          fontSize: 18),
+                        )
+                      ],
                     ),
                     fill: LinearGradient(colors: [
                       Color.fromARGB(255, 56, 184, 242),
