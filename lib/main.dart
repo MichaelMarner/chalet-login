@@ -82,9 +82,13 @@ class _MyHomePageState extends State<MyHomePage> {
                 ], begin: Alignment.bottomCenter, end: Alignment.topCenter),
               ),
               position: DecorationPosition.foreground,
-              child: Image.asset(
-                'assets/mountain.jpeg',
-                fit: BoxFit.fill,
+              child: OverflowBox(
+                minWidth: 780,
+                maxWidth: 2000,
+                child: Image.asset(
+                  'assets/mountain.jpeg',
+                  fit: BoxFit.cover,
+                ),
               ),
             ),
           ),
